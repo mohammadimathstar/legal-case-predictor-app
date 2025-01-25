@@ -62,7 +62,7 @@ The input text file should be a plain text (.txt) file containing the descriptio
 
 This is the visualization generated for a case law which has been predicted (and confirmed by a human annotator) to be about housing and eviction:
 
-![plot](./reports/plot.png)
+![plot](./reports/photo.png)
 
 
 ## Contributing
