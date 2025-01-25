@@ -1,0 +1,1 @@
+wget https://nlp.stanford.edu/data/glove.42B.300d.zip

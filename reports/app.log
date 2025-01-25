@@ -1,0 +1,12 @@
+2025-01-25 12:50:36,720 — EXPLAIN — INFO — Load embedding model
+2025-01-25 12:50:43,655 — EXPLAIN — INFO — Prediction of 'housing' model: 'housing', 	 Prediction of 'eviction' model: 'eviction'.
+2025-01-25 12:50:43,659 — EXPLAIN — INFO — Housing model's top 10 words are save in 'reports/housing_top_words.csv'
+2025-01-25 12:50:43,659 — EXPLAIN — INFO — Eviction model's top 10 words are save in 'reports/eviction_top_words.csv'
+2025-01-25 12:50:44,212 — EXPLAIN — INFO — The visualization of 10 words for the 'housing' model is saved in 'reports/housing_top_words.png'
+2025-01-25 12:50:44,212 — EXPLAIN — INFO — The visualization of 10 words for the 'eviction' model is save in 'reports/eviction_top_words.png'
+2025-01-25 13:10:08,337 — EXPLAIN — INFO — Load embedding model
+2025-01-25 13:10:14,846 — EXPLAIN — INFO — Prediction of 'housing' model: 'housing', 	 Prediction of 'eviction' model: 'eviction'.
+2025-01-25 13:10:14,849 — EXPLAIN — INFO — Housing model's top 10 words are save in 'reports/housing_top_words.csv'
+2025-01-25 13:10:14,849 — EXPLAIN — INFO — Eviction model's top 10 words are save in 'reports/eviction_top_words.csv'
+2025-01-25 13:10:15,336 — EXPLAIN — INFO — The visualization of 10 words for the 'housing' model is saved in 'reports/housing_top_words.png'
+2025-01-25 13:10:15,336 — EXPLAIN — INFO — The visualization of 10 words for the 'eviction' model is save in 'reports/eviction_top_words.png'

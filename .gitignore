@@ -1,0 +1,7 @@
+models/embedding_model/*
+
+src/__pycache__/*
+src/AChorDSLVQ/__pycache__/*
+
+.venv
+.idea

@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Prediction Results</title>
+        <style>
+            body {
+                font-family: 'Georgia', serif;
+                background: #f4f4f9;
+                color: #333;
+                margin: 0;
+                padding: 20px;
+            }
+            .container {
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 20px;
+                background: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                text-align: center;
+                font-size: 32px;
+                color: #003366;
+                margin-bottom: 30px;
+                font-weight: bold;
+            }
+            .visualizations {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 30px;
+                margin-bottom: 40px;
+            }
+            .figure {
+                text-align: center;
+                flex: 1;
+                background: #f9f9f9;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                border: 1px solid #e0e0e0;
+            }
+            .figure h2 {
+                font-size: 20px;
+                margin-bottom: 20px;
+                color: #003366;
+            }
+            .figure img {
+                max-width: 100%;
+                border: 2px solid #ddd;
+                border-radius: 8px;
+            }
+            .figure p {
+                margin-top: 10px;
+                font-size: 16px;
+                color: #555;
+            }
+            a {
+                display: inline-block;
+                margin-top: 30px;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                background: #0056b3;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+            a:hover {
+                background: #004085;
+            }
+            footer {
+                font-size: 12px;
+                margin-top: 40px;
+                color: #666;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Prediction Results</h1>
+
+            <div class="visualizations">
+                <!-- Housing Model -->
+                <div class="figure">
+                    <h2>The Most Influential Words for Housing Model</h2>
+                    <img src="{{ housing_visualization_url }}" alt="Housing Visualization" style="max-height: 400px; width: auto;">
+                    <p>{{ pred_housing }}</p>
+                </div>
+
+                <!-- Eviction Model -->
+                <div class="figure">
+                    <h2>The Most Influential Words for Eviction Model</h2>
+                    <img src="{{ eviction_visualization_url }}" alt="Eviction Visualization" style="max-height: 400px; width: auto;">
+                    <p>{{ pred_eviction }}</p>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <a href="/">Upload another file</a>
+            </div>
+            <footer>
+                <p>&copy; 2025 Law Firm. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>

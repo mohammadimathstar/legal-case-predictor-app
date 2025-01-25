@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Upload File</title>
+        <style>
+            body {
+                font-family: 'Georgia', serif;
+                background: #f4f4f9;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .container {
+                background: #ffffff;
+                border-radius: 10px;
+                padding: 30px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                max-width: 500px;
+                width: 100%;
+                border: 1px solid #ddd;
+            }
+            h1 {
+                margin-bottom: 20px;
+                font-size: 26px;
+                color: #3c3c3c;
+                font-weight: bold;
+            }
+            .form-group {
+                margin-bottom: 20px;
+                text-align: left;
+            }
+            label {
+                font-size: 14px;
+                margin-bottom: 5px;
+                display: block;
+                color: #555;
+            }
+            input[type="file"],
+            select,
+            button {
+                width: 100%;
+                padding: 12px;
+                margin-top: 5px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                outline: none;
+                transition: all 0.3s ease;
+            }
+            input[type="file"]:hover,
+            select:hover,
+            button:hover {
+                border-color: #98c0e3;
+            }
+            button {
+                background: #0056b3;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                border: none;
+                transition: background 0.3s ease;
+            }
+            button:hover {
+                background: #004085;
+            }
+            .error {
+                color: red;
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            footer {
+                font-size: 12px;
+                margin-top: 30px;
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Upload Your Case File</h1>
+            {% if error %}
+                <p class="error">{{ error }}</p>
+            {% endif %}
+            <form method="POST" enctype="multipart/form-data">
+                <!-- File Upload -->
+                <div class="form-group">
+                    <label for="file">Choose a text file:</label>
+                    <input type="file" id="file" name="file" accept=".txt" required>
+                </div>
+
+                <!-- Number of Influential Words -->
+                <div class="form-group">
+                    <label for="num_words">Select the number of influential words:</label>
+                    <select id="num_words" name="num_words">
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+
+                <button type="submit">Upload</button>
+            </form>
+            <footer>
+                <p>&copy; 2025 Law Firm. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>

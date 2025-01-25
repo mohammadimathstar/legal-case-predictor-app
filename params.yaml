@@ -1,0 +1,32 @@
+base:
+  log_level: INFO
+  log_file: 'reports/app.log'
+
+
+featurize:
+  embedding_model: 'models/embedding_model/glove.42B.300d.d2v'
+  embedding_dim: 300
+  subspace_dim: 20
+  min_token_length: 3
+
+
+model:
+  hyperparams:
+    act_fun: 'sigmoid'
+    sigma: 100
+
+  housing_model_path: 'models/trained_models/model_housing.pkl'
+  eviction_model_path: 'models/trained_models/model_eviction.pkl'
+
+
+evaluate:
+  target_names_housing: ['non-housing', 'housing']
+  target_names_eviction: ['non-eviction', 'eviction']
+  reports_dir: 'reports'
+
+
+explainability:
+  housing_table_path: 'reports/housing_top_words.csv'
+  housing_fig_path: 'reports/housing_top_words.png'
+  eviction_table_path: 'reports/eviction_top_words.csv'
+  eviction_fig_path: 'reports/eviction_top_words.png'
