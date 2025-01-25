@@ -68,6 +68,11 @@ This is the visualization generated for a case law which has been predicted (and
 ## Contributing
 
 Feel free to fork this project and make improvements! If you find bugs or have suggestions for new features, please open an issue or create a pull request.
+ 
+## References
+
+[An explainable approach to detect case law on housing and eviction issues within the HUDOC database]([https://example.com](https://arxiv.org/abs/2410.02978)) - A detailed paper explaining the methodology used for classifying housing and eviction cases.
+
 
 ## License
 
