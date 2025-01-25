@@ -56,6 +56,17 @@
                 font-size: 16px;
                 color: #555;
             }
+            .prediction {
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                margin: 20px 0;
+                color: #003366;
+            }
+            .prediction span {
+                font-size: 24px;
+                color: #ff5722;
+            }
             a {
                 display: inline-block;
                 margin-top: 30px;
@@ -86,15 +97,15 @@
                 <!-- Housing Model -->
                 <div class="figure">
                     <h2>The Most Influential Words for Housing Model</h2>
-                    <img src="{{ housing_visualization_url }}" alt="Housing Visualization" style="max-height: 400px; width: auto;">
-                    <p>{{ pred_housing }}</p>
+                    <img src="{{ housing_visualization_url }}" alt="Housing Visualization">
+                    <p>Predicted class for Housing model: <span>{{ housing_class }}</span></p>
                 </div>
 
                 <!-- Eviction Model -->
                 <div class="figure">
                     <h2>The Most Influential Words for Eviction Model</h2>
-                    <img src="{{ eviction_visualization_url }}" alt="Eviction Visualization" style="max-height: 400px; width: auto;">
-                    <p>{{ pred_eviction }}</p>
+                    <img src="{{ eviction_visualization_url }}" alt="Eviction Visualization">
+                    <p>Predicted class for Eviction model: <span>{{ eviction_class }}</span></p>
                 </div>
             </div>
 

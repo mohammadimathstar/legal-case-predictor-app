@@ -40,8 +40,8 @@ def upload_file():
         # Render result page with prediction and visualization
         return render_template(
             "result.html",
-            pred_housing=predictions["housing_pred"],
-            pred_eviction=predictions["eviction_pred"],
+            housing_class=predictions["housing_pred"],
+            eviction_class=predictions["eviction_pred"],
             housing_visualization_url=f"/reports/{predictions['housing_viz']}",
             eviction_visualization_url=f"/reports/{predictions['eviction_viz']}",
         )

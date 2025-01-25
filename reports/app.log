@@ -10,3 +10,21 @@
 2025-01-25 13:10:14,849 — EXPLAIN — INFO — Eviction model's top 10 words are save in 'reports/eviction_top_words.csv'
 2025-01-25 13:10:15,336 — EXPLAIN — INFO — The visualization of 10 words for the 'housing' model is saved in 'reports/housing_top_words.png'
 2025-01-25 13:10:15,336 — EXPLAIN — INFO — The visualization of 10 words for the 'eviction' model is save in 'reports/eviction_top_words.png'
+2025-01-25 13:26:04,060 — EXPLAIN — INFO — Load embedding model
+2025-01-25 13:26:12,351 — EXPLAIN — INFO — Prediction of 'housing' model: 'housing', 	 Prediction of 'eviction' model: 'eviction'.
+2025-01-25 13:26:12,364 — EXPLAIN — INFO — Housing model's top 10 words are save in 'reports/housing_top_words.csv'
+2025-01-25 13:26:12,364 — EXPLAIN — INFO — Eviction model's top 10 words are save in 'reports/eviction_top_words.csv'
+2025-01-25 13:26:12,888 — EXPLAIN — INFO — The visualization of 10 words for the 'housing' model is saved in 'reports/housing_top_words.png'
+2025-01-25 13:26:12,889 — EXPLAIN — INFO — The visualization of 10 words for the 'eviction' model is save in 'reports/eviction_top_words.png'
+2025-01-25 13:30:41,809 — EXPLAIN — INFO — Load embedding model
+2025-01-25 13:30:49,137 — EXPLAIN — INFO — Prediction of 'housing' model: 'housing', 	 Prediction of 'eviction' model: 'eviction'.
+2025-01-25 13:30:49,141 — EXPLAIN — INFO — Housing model's top 10 words are save in 'reports/housing_top_words.csv'
+2025-01-25 13:30:49,141 — EXPLAIN — INFO — Eviction model's top 10 words are save in 'reports/eviction_top_words.csv'
+2025-01-25 13:30:49,701 — EXPLAIN — INFO — The visualization of 10 words for the 'housing' model is saved in 'reports/housing_top_words.png'
+2025-01-25 13:30:49,701 — EXPLAIN — INFO — The visualization of 10 words for the 'eviction' model is save in 'reports/eviction_top_words.png'
+2025-01-25 13:32:51,546 — EXPLAIN — INFO — Load embedding model
+2025-01-25 13:32:58,109 — EXPLAIN — INFO — Prediction of 'housing' model: 'housing', 	 Prediction of 'eviction' model: 'eviction'.
+2025-01-25 13:32:58,112 — EXPLAIN — INFO — Housing model's top 10 words are save in 'reports/housing_top_words.csv'
+2025-01-25 13:32:58,112 — EXPLAIN — INFO — Eviction model's top 10 words are save in 'reports/eviction_top_words.csv'
+2025-01-25 13:32:58,690 — EXPLAIN — INFO — The visualization of 10 words for the 'housing' model is saved in 'reports/housing_top_words.png'
+2025-01-25 13:32:58,690 — EXPLAIN — INFO — The visualization of 10 words for the 'eviction' model is save in 'reports/eviction_top_words.png'
