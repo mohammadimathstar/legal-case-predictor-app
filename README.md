@@ -23,7 +23,26 @@ Install the necessary Python packages by running:
 pip install -r requirements.txt
 ```
 
+
 The requirements.txt file includes the necessary dependencies like Flask, Matplotlib, and other libraries required for the app.
+
+
+### Model Preparation
+
+To use the app, you need to download and prepare the GloVe word embedding model. Follow these steps:
+
+1. Download the GloVe model file (`glove.42B.300d.zip`) from the official website:
+   [https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/)
+
+2. Extract the file and place it in the following directory:
+
+```bash
+models/embedding_model/
+```
+
+3. Run the file `get_embedding_model.py` to preprocess the GloVe embeddings (make sure your virtual environment is activated):
+
+This step prepares the model for usage by gensim (i.e. the app can load and use the pre-trained embeddings for predictions).
 
 ## Usage
 
