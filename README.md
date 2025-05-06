@@ -2,6 +2,9 @@
 
 This is a web application built using **Flask** to help lawyers analyze and classify legal cases. The app predicts whether a case relates to **housing** or **eviction** based on the information provided in a text file. It also visualizes the most influential words from the models used for prediction.
 
+__Note:__ The docker image of the this repository, consisting of GloVe model, can be found in: 
+`mohammadimathstar/legal-case-predictor-app`.
+
 ## Features
 
 - **Prediction**: Classify the input case as either a "housing" or "eviction" case based on a trained model.
